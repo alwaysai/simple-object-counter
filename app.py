@@ -1,17 +1,7 @@
-import cv2
-import time
 import datetime
+import time
+import cv2
 import edgeiq
-"""
-Use object detection to count the number of each type of object in
-the frame. The types of objects detected can be changed by selecting
-different models. The list of object types that are counted can be
-changed by modifying `OBJECTS`.
-
-To change the computer vision model, the engine and accelerator,
-and add additional dependencies read this guide:
-https://alwaysai.co/docs/application_development/configuration_and_packaging.html
-"""
 
 
 ###################################################
